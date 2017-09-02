@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schema.android.com/tools"
     package="com.pavsidhu.daynote"
-    android:versionCode="1"
+    android:versionCode="3"
     android:versionName="1.0.0">
 
     <uses-permission android:name="android.permission.INTERNET" />
