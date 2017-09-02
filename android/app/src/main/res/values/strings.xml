@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">AfMIXQ88m7iD1XLoLr-pIZjR9mdD4097225b-e0d0-440d-b272-8f5240923652</string>
     <string name="app_name">DayNote</string>
 </resources>
