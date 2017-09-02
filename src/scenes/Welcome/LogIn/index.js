@@ -46,6 +46,8 @@ export default class LogIn extends Component {
     } catch (error) {
       this.setState(state => ({isLoggingIn: false}))
 
+      firebase.crash().report(error)
+
       Alert.alert(
         "Connection Error ☹️",
         "Please check your internet connection and try again",
