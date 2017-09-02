@@ -2,7 +2,7 @@
     xmlns:tools="http://schema.android.com/tools"
     package="com.pavsidhu.daynote"
     android:versionCode="3"
-    android:versionName="1.0.0">
+    android:versionName="1.0.2">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
