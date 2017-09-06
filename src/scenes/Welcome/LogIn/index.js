@@ -20,14 +20,14 @@ export default class LogIn extends Component {
   }
 
   componentDidMount() {
-    this.setupGoogleSignin()
-
     SplashScreen.hide()
+
+    this.setupGoogleSignin()
   }
 
-  setupGoogleSignin() {
-    GoogleSignin.hasPlayServices({autoResolve: true})
-    GoogleSignin.configure({
+  async setupGoogleSignin() {
+    await GoogleSignin.hasPlayServices({autoResolve: true})
+    await GoogleSignin.configure({
       webClientId:
         "241356765374-ljg1m8hmiuu8plg2jpn6n5lhgs7otltk.apps.googleusercontent.com"
     })
