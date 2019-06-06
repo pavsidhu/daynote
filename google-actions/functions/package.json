@@ -1,0 +1,17 @@
+{
+  "name": "daynote-google-assistant-app",
+  "description": "DayNote for Google Assistant",
+  "dependencies": {
+    "actions-on-google": "^1.2.0",
+    "firebase": "^4.3.0",
+    "firebase-admin": "^5.2.1",
+    "firebase-functions": "^0.6.2",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.7.2",
+    "query-string": "^5.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "develop": "firebase serve --only functions"
+  }
+}
